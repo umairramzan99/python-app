@@ -1,0 +1,7 @@
+services:
+  pythonapp: 
+    build: .
+    image: pythonapp
+    ports:
+    - 8080:8086
+
